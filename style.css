@@ -1,0 +1,210 @@
+html   {
+    height: 100%;
+    margin: 0;
+}
+
+body   {
+    margin: 0;
+    background: linear-gradient(180deg, rgb(238, 142, 113), rgb(97, 63, 47)) fixed;
+    height: 100%;
+}
+
+.container{
+    color: wheat;
+    box-sizing: border-box;
+    position: relative;
+    margin: auto;
+    top: 5em;
+    width: 50em;
+    height: 80em;
+    border: 0.5em double rgb(129, 24, 24);
+    border-radius: 1em;
+    background:rgb(150, 36, 36);
+}
+
+.container.eggCon{
+    background: url(./image/board.jpg);
+    color: beige;
+}
+
+.krabbyImg{
+    position: absolute;
+    width:  13em;
+    text-align: center;
+    padding-top: .8%;
+    padding-left: 44%;
+    z-index: 2;
+}
+
+.krabbyImg:hover{
+    width: 13.5em;
+}
+
+.krabbyPatty{
+    position: absolute;
+    left: 37%;
+    width: 11em;
+    margin-top: 1.5em;
+    font-size: 2.4em;
+    color: rgb(241, 193, 70);
+    font-weight: normal;
+}
+
+.under{
+    width: 35em;
+    position: absolute;
+    transform: translateX(-50%);
+    top: 4.7%;
+    left: 50%;
+    border-top: 1.4em solid white;
+    border-bottom: 1.4em solid white;
+    border-left: 1.4em solid transparent;
+    border-right: 1.4em solid transparent;
+}
+
+.desc{
+    font-size: 1.2em;
+    position: relative;
+    width: 90%;
+    margin: 7em auto 0 auto;
+}
+
+.timeEgg:hover{
+    border: 0.5em double rgb(129, 24, 24);
+}
+
+.ingredients{
+    text-align: center;
+    font-size: 1.9em;
+}
+
+.directions{
+    text-align: center;
+    font-size: 1.9em;
+}
+
+.ingredientsList{
+    font-size: 1.2em;
+    display:flex;  
+    list-style:none;
+    padding-left: 0%;
+}
+
+.subCategories{
+    font-size: 1.3em;
+    text-align: center;
+    padding-bottom: 4%;
+}
+
+span{
+    padding: 3%;
+}
+
+
+.steps{
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.procedure{
+    font-size: 1.2em;
+}
+
+.eggPic{
+    border-radius: 50%;
+    position: absolute;
+    max-width: 180px;
+    height: 170px;
+    text-align: center;
+    padding-top: .8%;
+    margin-left: 45%;
+    z-index: 2;
+}
+
+.eggPic:hover{
+    max-width: 200px;
+    height: 180px;
+}
+.underEgg{
+    width: 35em;
+    position: absolute;
+    transform: translateX(-50%);
+    top: 9%;
+    left: 50%;
+    border-top: 1.4em solid white;
+    border-bottom: 1.4em solid white;
+    border-left: 1.4em solid transparent;
+    border-right: 1.4em solid transparent;
+}
+
+.eggTitle{
+    position: absolute;
+    left: 39%;
+    width: 11em;
+    margin-top: 3em;
+    font-size: 2.4em;
+    color: rgb(241, 193, 70);
+    font-weight: normal;
+}
+
+.descEgg{
+    font-size: 1.2em;
+    position: relative;
+    width: 90%;
+    margin: 9em auto 0 auto;
+}
+
+.kaimanEat{
+    padding-left: 10%;
+    height: 12%;
+    width: 80%;
+}
+
+#randomRecipes{
+    position: relative;
+    font-family: "Times New Roman", Times, serif;
+    text-transform: uppercase;
+    margin-bottom: -5px;
+    font-size: 4vw;
+    text-align: center;
+}
+
+.foodPic{
+    margin-top: 3%;
+    display:flex;  
+    list-style:none;
+    justify-content: space-around;
+}
+
+#krab{
+    width: 180%;
+    height: auto;
+    padding-left: 10%;
+}
+
+#krab:hover{
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+}
+
+#egg{
+    width: 43%;
+    height: 72%;
+    margin-left: 40%;
+}
+
+#egg:hover{
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
+}
+
+#gyoza{
+    width: 90%;
+    height: 72%;
+    margin-right: 5%;
+}
+
+#gyoza:hover{
+    -webkit-filter: blur(5px);
+  filter: blur(5px);
+}
